@@ -1,3 +1,5 @@
+# WEEK 1
+
 ## Week goal 🏁
 
 Learn about React fundamentals, hooks & input
