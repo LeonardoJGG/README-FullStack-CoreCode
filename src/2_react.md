@@ -1,4 +1,4 @@
-# WEEK2
+# WEEK 2
 
 ## Week goal 🏁
 
