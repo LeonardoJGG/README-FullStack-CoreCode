@@ -1,3 +1,5 @@
+# WEEK2
+
 ## Week goal 🏁
 
 Learn about dynamic rendering, routes & styling
