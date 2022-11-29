@@ -14,9 +14,9 @@ Learn about React fundamentals, hooks & input
 * High Order Components
 * Handle inputs and forms (Formik)
 
-## Week Challenges (Tuesday)
+## Week Challenges (Tuesday)💻
 
-1. **Ensure Question** *exercise*
+1. **Ensure Question** *exercise* 
 
 Given a string, write a function that returns the string with a question mark ("?") appends to the end, unless the original string ends with a question mark, in which case, returns the original string.
 
@@ -58,7 +58,7 @@ Complete the solution so that it reverses all of the words within the string pas
   }
 ```
 
-## Week Challenges (Wednesday)
+## Week Challenges (Wednesday)💻
 
 1. **Smallest Integer In Array** *exercise*
 
@@ -81,7 +81,7 @@ You can assume, for the purpose of this kata, that the supplied array will not b
   }
 ```
 
-## Week Challenges (Thursday)
+## Week Challenges (Thursday)💻
 
 1. **Odd Or Even** *exercise*
 
