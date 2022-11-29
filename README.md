@@ -5,7 +5,7 @@
 ### Stack
 
 * Week 1 : [React](https://github.com/LeonardoJGG/README-FullStack-CoreCode/blob/main/src/1_react.md)  
-* Week 2 : [React]()  
+* Week 2 : [React](https://github.com/LeonardoJGG/README-FullStack-CoreCode/blob/main/src/2_react.md)  
 * Week 3 : [React]()  
 * Week 4 : [React, Pause Day & Node]()  
 * Week 5 : [Node]()  
