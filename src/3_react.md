@@ -97,8 +97,11 @@ export default List
 
 ## Week challenges (Wednesday) 💻
 
-1. **React Router Blog exercise**
+1. **React Router Blog** *exercise*
 
+## Week challenges (Thursday) 💻
+
+1. Redux lecture
 
 
 
