@@ -95,6 +95,52 @@ export default List
 
 1. **Fetch Random User Data** *exercise*
 
+React code to fetch from [this](https://jsonplaceholder.typicode.com/users) API random users. You should display the Name, website, email and phone of a random user. Also there should be a Reset button to fetch a new user (For this you need to generate a random number from 1 to 10).
+
+**Example**
+
+![Example](https://camo.githubusercontent.com/64539ff356879af3dbc52c57918a298a91e2383504c64ecb53c9a73ca702b516/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4259366445473945426643476278424c496c2f67697068792e676966)
+
+***Solution***
+
+```javascript
+import React, { useState, useEffect } from 'react'
+
+function Users() {
+    const [users, setusers] = useState({})
+
+    const getusers = async () => {
+        const number = Math.floor(Math.random() * 10) + 1;
+        const url = `https://jsonplaceholder.typicode.com/users/${number}`;
+        const res = await fetch(url);
+        const usersJson = await res.json();
+        setusers(usersJson);
+    };
+
+    useEffect(() => {
+        getusers();
+      }, {});
+    
+      const reset = async () => {
+        await getusers();
+      };
+    
+      return (
+        <>
+            <div>Users</div>
+            <p>Name: {users.name} </p>
+            <p>Website: {users.website} </p>
+            <p>Email: {users.email} </p>
+            <p>Phone: {users.phone} </p>
+
+            <button onClick={() => reset()}>Reset</button>
+        </>
+      );
+}
+
+export default Users
+```
+
 ## Week challenges (Wednesday) 💻
 
 1. **React Router Blog** *exercise*
